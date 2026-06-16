@@ -13,7 +13,7 @@ A coupled dynamical-systems framework proving that **compositional generalisatio
 | Aspect | Detail |
 |--------|--------|
 | Core finding | SGD creates a stable low-coherence equilibrium ("σ-trap") that standard training cannot escape |
-| Status | Submitted to *Transactions on Machine Learning Research* (TMLR) |
+| Status | Preprint (preparing for peer review) |
 | Validation | 45 experimental runs, Cohen's d = 9.08 (additive), 7.57 (multiplicative), p < 0.0001 |
 | Theory | 16 complete mathematical proofs (existence, invariance, bifurcation, consistency) |
 | Stack | Python, PyTorch, NumPy, SciPy |
@@ -33,5 +33,7 @@ A coupled dynamical-systems framework proving that **compositional generalisatio
 
 ## 📫 Links
 
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20714248.svg)](https://doi.org/10.5281/zenodo.20714248)
 - ORCID: [orcid.org/0009-0004-2159-9371](https://orcid.org/0009-0004-2159-9371)
 - LinkedIn: [linkedin.com/in/basyirin-amsyar](https://www.linkedin.com/in/basyirin-amsyar/)
+- GitHub: [github.com/basyirin-dev](https://github.com/basyirin-dev)
