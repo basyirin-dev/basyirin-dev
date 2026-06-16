@@ -1,31 +1,37 @@
-### Hi, I'm Basyirin. I make robots move precisely.
+# Hi, I'm Basyirin Amsyar Basri 👋
 
-I am an R&D Engineer specializing in **Embedded Control Systems** and **Physics-Informed Machine Learning**. My work focuses on solving the "Reality Gap"—deploying intelligent agents onto hardware with strict latency constraints (<10ms).
-
-I don't just train models; I deploy them to the metal.
+Independent AI researcher building formal theories of how neural agents learn — and why they fail at systematic composition.
 
 ---
 
-### 🛠️ Technical Arsenal
+## 🔬 Featured Research
 
-| Domain | Technology | Use Case |
-| :--- | :--- | :--- |
-| **Control & Dynamics** | PID, LQR, System ID | Stabilizing unstable systems |
-| **Embedded Firmware** | C++, PlatformIO, FreeRTOS | Hard real-time execution (Teensy 4.1, ESP32) |
-| **Scientific ML** | PyTorch, JAX, ONNX | Physics-Informed Neural Networks (PINNs) |
-| **Simulation** | Differentiable Physics | Sim-to-Real transfer & Domain Randomization |
+### [Σ-Model V3.0+](https://github.com/basyirin-dev/hbar-v3)
 
----
+A coupled dynamical-systems framework proving that **compositional generalisation failure is a bifurcation phenomenon** — not a capacity or data problem.
 
-### 🔭 Current Research: FastTrack
-**Project:** [PIRL_Adaptive_Control](https://github.com/basyirin-dev/PIRL_Adaptive_Control)
-* **The Challenge:** Eliminating non-linear Stribeck friction in actuators without manual tuning.
-* **The Solution:** A hybrid controller combining classical PID with a residual Physics-Informed Neural Network.
-* **The Constraint:** Inference must happen in **<500 microseconds** on a microcontroller.
-* **Status:** Phase 2 (Hardware Verification).
+| Aspect | Detail |
+|--------|--------|
+| Core finding | SGD creates a stable low-coherence equilibrium ("σ-trap") that standard training cannot escape |
+| Status | Submitted to *Transactions on Machine Learning Research* (TMLR) |
+| Validation | 45 experimental runs, Cohen's d = 9.08 (additive), 7.57 (multiplicative), p < 0.0001 |
+| Theory | 16 complete mathematical proofs (existence, invariance, bifurcation, consistency) |
+| Stack | Python, PyTorch, NumPy, SciPy |
 
----
+**Key predictions:**
+- Depth without coherence produces brittle generalisation
+- Curriculum must target σ-dynamics, not just δ-accumulation
+- Nine falsifiable predictions distinguishable from depth-only accounts
 
-### 📈 Philosophy
-> **"We do not learn the robot; we learn the rust."**
-> Reliable control isn't about modeling the perfect physics; it's about robustly rejecting the imperfections (friction, noise, latency) that simulation misses.
+## 🛠 Core Stack
+
+| Area | Technologies |
+|------|-------------|
+| AI/ML | PyTorch, NumPy, SciPy, scikit-learn |
+| Theory | Dynamical systems, bifurcation analysis, singular perturbation |
+| Dev | Python, Jupyter, Docker, Git |
+
+## 📫 Links
+
+- ORCID: [orcid.org/0009-0004-2159-9371](https://orcid.org/0009-0004-2159-9371)
+- LinkedIn: [linkedin.com/in/basyirin-amsyar](https://www.linkedin.com/in/basyirin-amsyar/)
